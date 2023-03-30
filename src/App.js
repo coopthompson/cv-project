@@ -1,7 +1,11 @@
-import React from "react";
+import React from "react"
+import Data from "./components/form"
 
-class App extends React.Component {
-  
+const App = () => {
+  return (
+      <Data />
+  )
+
 }
 
-export default App;
+export default App
